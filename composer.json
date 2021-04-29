@@ -1,5 +1,5 @@
 {
-    "name": "smalot/cups-ipp",
+    "name": "jwadin/cups-ipp",
     "description": "CUPS Implementation of IPP - PHP Client API",
     "type": "library",
     "license": "MIT",
@@ -7,15 +7,19 @@
         {
             "name": "Sebastien Malot",
             "email": "sebastien@malot.fr"
+        },
+        {
+            "name": "Julien Wadin",
+            "email": "julien@wadin.be"
         }
     ],
     "require": {
         "php": ">=5.6",
-        "php-http/socket-client": "*",
-        "php-http/client-common": "*",
-        "php-http/message": "*",
-        "guzzlehttp/psr7": "*",
-        "symfony/yaml": "*"
+        "php-http/socket-client": "^2.0",
+        "php-http/client-common": "^2.1",
+        "php-http/message": "^1.0",
+        "guzzlehttp/psr7": "^1.2",
+        "symfony/yaml": "^3.2||^4.0||^5.0"
     },
     "require-dev": {
         "symfony/debug": "*",
